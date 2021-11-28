@@ -6,9 +6,13 @@ MUSIC()
 
 ARTIST()
 
+LIBRARY()
+
 USER --- M --- <LISTENS> --- N --- PLAYLIST
 
-USER --- 1 --- <CREATES> === 1 ===  PLAYLIST
+USER === 1 === <HAS> === 1 ===  LIBRARY
+
+LIBRARY --- 1 --- <CREATE> === M === PLAYLIST
  
 USER --- M --- <FOLLOWS> --- N --- USER
 

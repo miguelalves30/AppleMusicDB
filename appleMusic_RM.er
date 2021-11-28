@@ -17,10 +17,16 @@ table PAYMENT
   PaymentDate
 )
 
+table LIBRARY
+(
+_IdLibrary_,
+IdUser --> USER.IdUser
+)
+
 table PLAYLIST
 (
   _ IdPlaylist _,
-  IdUser --> USER.IdUser,
+  IdLibrary --> LIBRARY.IdLibrary,
   Name
 )
 
@@ -61,4 +67,3 @@ table GENRE
   _ IdArtist _ --> ARTIST.IdArtist,
   Type
 )
-

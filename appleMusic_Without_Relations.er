@@ -2,6 +2,8 @@ USER(_ IdUser _, Name, Email , Birthdate , Joined , Sex , .Age. , Phone? , Payme
 
 ARTIST(_ IdArtist _, Name , { Genre })
 
-PLAYLIST(_ IdPlaylist _, Name, IdUser)
+PLAYLIST(_ IdPlaylist _, Name, IdLibrary)
 
 MUSIC(_ IdMusic _, Name , Album? , IdArtist)
+
+LIBRARY(_IdLibrary_ , IdUser)
