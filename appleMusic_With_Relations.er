@@ -10,7 +10,7 @@ USER --- M --- <LISTENS> --- N --- PLAYLIST
 
 USER --- 1 --- <CREATS> === N ===  PLAYLIST
  
-USER --- M --- <FRIENDS> --- N --- USER
+USER --- M --- <FOLLOWS> --- N --- USER
 
 PLAYLIST === M === <CONTAINS>  --- N ---  MUSIC
 
