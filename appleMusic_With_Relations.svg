@@ -27,16 +27,16 @@
 <path fill="none" stroke="#000000" d="M46.3802,-119.1392C59.9876,-131.4137 78.9159,-147.5888 97,-160 105.8253,-166.0569 116.135,-171.8936 125.0239,-176.5812"/>
 <text text-anchor="middle" x="75.5" y="-149" font-family="Courier,monospace" font-size="10.00" fill="#000000">M</text>
 </g>
-<!-- CREATS -->
+<!-- CREATES -->
 <g id="node6" class="node">
-<title>CREATS</title>
-<polygon fill="#ffffff" stroke="#000000" points="146.1172,-151 101.8724,-133 146.1172,-115 190.362,-133 146.1172,-151"/>
-<text text-anchor="middle" x="146.1172" y="-130.5" font-family="Courier,monospace" font-size="10.00" fill="#000000">CREATS</text>
+<title>CREATES</title>
+<polygon fill="#ffffff" stroke="#000000" points="146.1172,-151 96.8825,-133 146.1172,-115 195.3519,-133 146.1172,-151"/>
+<text text-anchor="middle" x="146.1172" y="-130.5" font-family="Courier,monospace" font-size="10.00" fill="#000000">CREATES</text>
 </g>
-<!-- USER&#45;&#45;CREATS -->
+<!-- USER&#45;&#45;CREATES -->
 <g id="edge3" class="edge">
-<title>USER&#45;&#45;CREATS</title>
-<path fill="none" stroke="#000000" d="M54.0295,-108.2613C73.5238,-113.4983 99.725,-120.5371 119.1946,-125.7674"/>
+<title>USER&#45;&#45;CREATES</title>
+<path fill="none" stroke="#000000" d="M54.0295,-108.2613C72.9747,-113.3508 98.2542,-120.1419 117.5336,-125.3212"/>
 <text text-anchor="middle" x="75.5" y="-117" font-family="Courier,monospace" font-size="10.00" fill="#000000">1</text>
 </g>
 <!-- FOLLOWS -->
@@ -115,13 +115,13 @@
 <path fill="none" stroke="#000000" d="M175.1403,-179.4568C204.5282,-171.7618 251.2557,-159.3699 291.489,-148 297.2978,-146.3584 303.468,-144.5663 309.4273,-142.8103"/>
 <text text-anchor="middle" x="252.3617" y="-171" font-family="Courier,monospace" font-size="10.00" fill="#000000">N</text>
 </g>
-<!-- CREATS&#45;&#45;PLAYLIST -->
+<!-- CREATES&#45;&#45;PLAYLIST -->
 <g id="edge4" class="edge">
-<title>CREATS&#45;&#45;PLAYLIST</title>
-<path fill="none" stroke="#000000" d="M190.5635,-131C226.6825,-131 276.8033,-131 309.3147,-131"/>
-<path fill="none" stroke="transparent" d="M190.5635,-133C226.6825,-133 276.8033,-133 309.3147,-133"/>
-<path fill="none" stroke="#000000" d="M190.5635,-135C226.6825,-135 276.8033,-135 309.3147,-135"/>
-<text text-anchor="middle" x="252.3617" y="-136" font-family="Courier,monospace" font-size="10.00" fill="#000000">N</text>
+<title>CREATES&#45;&#45;PLAYLIST</title>
+<path fill="none" stroke="#000000" d="M195.2911,-131C230.9876,-131 278.2878,-131 309.4021,-131"/>
+<path fill="none" stroke="transparent" d="M195.2911,-133C230.9876,-133 278.2878,-133 309.4021,-133"/>
+<path fill="none" stroke="#000000" d="M195.2911,-135C230.9876,-135 278.2878,-135 309.4021,-135"/>
+<text text-anchor="middle" x="252.3617" y="-136" font-family="Courier,monospace" font-size="10.00" fill="#000000">1</text>
 </g>
 <!-- FOLLOWS&#45;&#45;USER -->
 <g id="edge6" class="edge">

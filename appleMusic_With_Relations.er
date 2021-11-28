@@ -8,7 +8,7 @@ ARTIST()
 
 USER --- M --- <LISTENS> --- N --- PLAYLIST
 
-USER --- 1 --- <CREATS> === N ===  PLAYLIST
+USER --- 1 --- <CREATES> === 1 ===  PLAYLIST
  
 USER --- M --- <FOLLOWS> --- N --- USER
 
