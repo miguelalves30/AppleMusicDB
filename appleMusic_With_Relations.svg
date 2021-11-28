@@ -39,15 +39,15 @@
 <path fill="none" stroke="#000000" d="M54.0295,-108.2613C73.5238,-113.4983 99.725,-120.5371 119.1946,-125.7674"/>
 <text text-anchor="middle" x="75.5" y="-117" font-family="Courier,monospace" font-size="10.00" fill="#000000">1</text>
 </g>
-<!-- FRIENDS -->
+<!-- FOLLOWS -->
 <g id="node7" class="node">
-<title>FRIENDS</title>
+<title>FOLLOWS</title>
 <polygon fill="#ffffff" stroke="#000000" points="146.1172,-97 96.8825,-79 146.1172,-61 195.3519,-79 146.1172,-97"/>
-<text text-anchor="middle" x="146.1172" y="-76.5" font-family="Courier,monospace" font-size="10.00" fill="#000000">FRIENDS</text>
+<text text-anchor="middle" x="146.1172" y="-76.5" font-family="Courier,monospace" font-size="10.00" fill="#000000">FOLLOWS</text>
 </g>
-<!-- USER&#45;&#45;FRIENDS -->
+<!-- USER&#45;&#45;FOLLOWS -->
 <g id="edge5" class="edge">
-<title>USER&#45;&#45;FRIENDS</title>
+<title>USER&#45;&#45;FOLLOWS</title>
 <path fill="none" stroke="#000000" d="M54.0295,-96.0079C71.6018,-92.7624 94.6237,-88.5104 113.2526,-85.0698"/>
 <text text-anchor="middle" x="75.5" y="-95" font-family="Courier,monospace" font-size="10.00" fill="#000000">M</text>
 </g>
@@ -123,9 +123,9 @@
 <path fill="none" stroke="#000000" d="M190.5635,-135C226.6825,-135 276.8033,-135 309.3147,-135"/>
 <text text-anchor="middle" x="252.3617" y="-136" font-family="Courier,monospace" font-size="10.00" fill="#000000">N</text>
 </g>
-<!-- FRIENDS&#45;&#45;USER -->
+<!-- FOLLOWS&#45;&#45;USER -->
 <g id="edge6" class="edge">
-<title>FRIENDS&#45;&#45;USER</title>
+<title>FOLLOWS&#45;&#45;USER</title>
 <path fill="none" stroke="#000000" d="M111.7272,-73.4721C99.0649,-72.512 84.7157,-72.705 72,-76 65.944,-77.5693 59.8353,-80.1495 54.1555,-83.0706"/>
 <text text-anchor="middle" x="75.5" y="-79" font-family="Courier,monospace" font-size="10.00" fill="#000000">N</text>
 </g>
