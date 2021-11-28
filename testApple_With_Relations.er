@@ -1,0 +1,19 @@
+USER()
+
+PLAYLIST()
+
+MUSIC()
+
+ARTIST()
+
+USER --- M --- <LISTENS> --- N --- PLAYLIST
+
+USER --- 1 --- <CREATS> === N ===  PLAYLIST
+ 
+USER --- M --- <FRIENDS> --- N --- USER
+
+PLAYLIST === M === <CONTAINS>  --- N ---  MUSIC
+
+ARTIST === 1 === <PRODUCES> ==== N === MUSIC
+
+USER --- M --- <HEARS> --- N --- MUSIC
