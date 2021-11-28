@@ -1,0 +1,7 @@
+USER(_ IdUser _, Name, Email , Birthdate , Joined , Sex , .Age. , Phone? , Payment( Method , PaymentDate))
+
+ARTIST(_ IdArtist _, Name , { Genre })
+
+PLAYLIST(_ IdPlaylist _, Name, IdUser)
+
+MUSIC(_ IdMusic _, Name , Album? , IdArtist)
