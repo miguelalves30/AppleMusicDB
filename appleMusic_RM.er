@@ -1,0 +1,64 @@
+table USER
+(
+  _ IdUser _,
+  Name,
+  Email,
+  Birthdate,
+  Sex,
+  Joined,
+  Phone?
+)
+
+
+table PAYMENT
+(
+  _ IdUser _ --> USER.IdUser,
+  Method,
+  PaymentDate
+)
+
+table PLAYLIST
+(
+  _ IdPlaylist _,
+  IdUser --> USER.IdUser,
+  Name
+)
+
+table LISTENS 
+(
+  _ IdUser _ --> USER.IdUser,
+  _ IdPlaylist _ --> PLAYLIST.IdPlaylist
+)
+
+table ARTIST
+(
+  _ IdArtist _,
+  Name
+)
+
+table MUSIC
+(
+  _ IdMusic _,
+  Name,
+  IdArtist --> ARTIST.IdArtist,
+  Album? 
+)
+table HEARS
+( 
+  _ IdUser _ --> USER.IdUser,
+  _ IdMusic _ --> MUSIC.IdMusic
+)
+
+table CONTAINS
+( 
+  _ IdPlaylist _ --> PLAYLIST.IdPlaylist,
+  _ IdMusic _ --> MUSIC.IdMusic
+)
+
+
+table GENRE 
+(
+  _ IdArtist _ --> ARTIST.IdArtist,
+  Type
+)
+
